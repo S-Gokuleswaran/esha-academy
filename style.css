@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+.link li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+body{
+  background-color: white;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: black;
+}
+.logo{
+  cursor: pointer;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: rgb(255, 89, 0);
+  font-weight: bold;
+  margin-right: auto;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.link{
+  list-style: none;
+}
+.link li{
+  display: inline-block;
+  padding: 0px 40px;
+}
+.link li .active:hover{
+  color:rgb(255, 89, 0) ;
+}
+.link li a{
+  transition: 0.5s;
+}
+.ac{
+  background-color: rgb(255, 89, 0);
+  border-radius: 50px;
+  padding: 9px 25px;
+  transition: 0.5s;
+}
+.ac:hover{
+  background-color: rgba(255, 89, 0, 0.689);
+}
+.ac{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.bo{
+  background: linear-gradient(to top,rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%);
+  width: 300px;
+  height: 350px;
+  
+  margin:200px auto;
+  border-radius: 20px;
+}
+.bo .lo{
+  background-color:white;
+  text-align: center;
+  color:rgb(255, 89, 0);
+  margin:auto;
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+input{
+  width: 200px;
+  height: 20px;
+  margin-top: 25px;
+  margin-left: 50px;
+  background: transparent;
+  border-bottom:2px solid rgb(251, 243, 243);
+  border-top:none ;
+  border-left: none;
+  border-right: none;
+  color: white;
+  position: relative;
+  top: 30px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+input:focus{
+  outline: none;
+}
+button{
+  background-color: rgb(255, 89, 0);
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 70px;
+  color: white;
+  right: -50px;
+  height: 25px;
+  width: 200px;
+  transition: 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(255, 89, 0, 0.689);
+}
+.bo .do {
+  color:black;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 12px;
+}
+.bo .oo{
+  color:black;
+  text-align: center;
+  font-size: 12px;
+}
+.bo .si a{
+  color: rgb(255, 89, 0);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.bo .ff{
+  color:black;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.goo img{
+  width: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ins img{
+  width: 30px;
+  position: relative;
+  top: -34px;
+  left: 110px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.linked img{
+  width: 30px;
+  position: relative;
+  top: -68px;
+  left: 170px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.face img{
+  width: 30px;
+  position: relative;
+  top: -103px;
+  left: 230px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+img:hover{
+  background-color: rgb(255, 89, 0);
+}
+.web{
+  margin-top: -650px;
+  text-align: center;
+}
+.web .con{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: rgb(255, 89, 0);
+}
