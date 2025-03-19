@@ -1,0 +1,166 @@
+body{
+  background-color:white;
+}
+.esh .re{
+  color:rgb(255, 89, 0);
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  background-color: white;
+  padding: 5px 9px;
+  border-radius: 10px;
+  left: 135px;
+}
+form{
+    background: linear-gradient(to top,rgb(206,202,202)50%,rgb(206,202,202)50%);
+    width: 500px;
+    height: 380px;
+    margin:200px auto;
+    border-radius: 20px;
+  }
+.name input{
+  width: 250px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+}
+.age input{
+  width: 250px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  position: relative;
+  top: 10px;
+}
+.mail input{
+  width: 250px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  position: relative;
+  top: 5px;
+}
+.co input{
+  width: 250px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  position: relative;
+top: 10px;
+}
+  .gender input{
+  position: relative;
+  top: 15px;
+  width: 20px;
+  }
+  .resume input{
+    position: relative;
+    top: 28px;
+  }
+  .select{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    width: 250px;
+    position: relative;
+    top: 15px;
+    background: transparent;
+  }
+
+.reset button{
+  background-color:rgb(255, 89, 0);
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  color: white;
+  right: -100px;
+  height: 25px;
+  width: 100px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.submit button{
+background-color: rgb(255, 89, 0);
+border: none;
+border-radius: 5px;
+position: relative;
+top: 50px;
+color: white;
+right: -70px;
+height: 25px;
+width: 100px;
+transition: 0.5s;
+cursor: pointer;
+}
+.na{
+  font-size: 15px;
+  font-family: Arial;
+}
+.ag{
+  font-size: 15px;
+  font-family: Arial;
+  position: relative;
+  top: 10px;
+}
+.ge{
+  font-size: 15px;
+  font-family: Arial;
+  position: relative;
+  top: 15px;
+}
+ .ma {
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  top: 13px;
+  font-family: Arial;
+}
+.fe{
+font-size: 15px;
+  display: inline-block;
+  position: relative;
+  top: 13px;
+  font-family: Arial;
+}
+.em{
+  font-size: 15px;
+  font-family: Arial;
+  position: relative;
+  top: 10px;
+}
+.se{
+  font-size: 15px;
+  font-family: Arial;
+  position: relative;
+  top: 17px;
+}
+.up{
+  font-size: 15px;
+  font-family: Arial;
+  position: relative;
+  top: 27px;
+}
+input:focus{
+  outline: no;
+}
+.goba{
+  font-size: 15px;
+  font-family: Arial;
+  position: relative;
+  top: 60px;
+  left: 170px;
+}
+.goba a{
+  text-decoration: none;
+  color:rgb(255, 89, 0);
+}
